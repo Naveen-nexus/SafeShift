@@ -9,3 +9,5 @@ header { display: flex; justify-content: space-between; padding: 20px; }
 .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
 
 .profile { margin-top: 20px; padding: 20px; border: 1px solid #ddd; }
+
+.actions button { padding: 10px; margin-right: 10px; }
