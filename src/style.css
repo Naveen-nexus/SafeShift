@@ -1,0 +1,3 @@
+body { margin: 0; font-family: sans-serif; }
+
+.app-shell { display: grid; grid-template-columns: 258px 1fr; } .sidebar { background: #fff; }
