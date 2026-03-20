@@ -5,3 +5,5 @@ body { margin: 0; font-family: sans-serif; }
 .sidebar { padding: 20px; border-right: 1px solid #eee; }
 
 header { display: flex; justify-content: space-between; padding: 20px; }
+
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }

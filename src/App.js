@@ -1,3 +1,3 @@
 import React from 'react';
-function App() { return <div className='app-shell'><aside className='sidebar'><h2>SafeShift</h2></aside><main className='dashboard-main'><header><h1>Dashboard</h1><div className='user'>NV</div></header></main></div>; }
+function App() { const stats=[{l:'Premium',v:'80'},{l:'Risk',v:'Med'}]; return <div className='app-shell'><aside className='sidebar'>SafeShift</aside><main><header>Dash</header><div className='stats'>{stats.map(s=><div key={s.l}>{s.l}: {s.v}</div>)}</div></main></div>; }
 export default App;
