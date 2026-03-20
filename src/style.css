@@ -3,3 +3,5 @@ body { margin: 0; font-family: sans-serif; }
 .app-shell { display: grid; grid-template-columns: 258px 1fr; } .sidebar { background: #fff; }
 
 .sidebar { padding: 20px; border-right: 1px solid #eee; }
+
+header { display: flex; justify-content: space-between; padding: 20px; }
