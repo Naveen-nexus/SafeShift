@@ -15,3 +15,5 @@ header { display: flex; justify-content: space-between; padding: 20px; }
 .active { color: green; }
 
 .output { padding: 10px; border-radius: 4px; background: #eef; }
+
+.history { margin-top: 20px; }
